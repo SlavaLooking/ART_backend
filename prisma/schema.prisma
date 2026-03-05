@@ -6,6 +6,7 @@
 
 generator client {
   provider        = "prisma-client-js"
+  previewFeatures = ["multiSchema"] // Это обязательно для работы @@schema
 }
 
 datasource db {
